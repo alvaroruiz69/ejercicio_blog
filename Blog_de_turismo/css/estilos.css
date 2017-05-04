@@ -1,0 +1,116 @@
+header {
+	padding: 1vw;
+	right: 0px;
+}
+main {
+	padding: 2vw;
+}
+body {
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 100%;
+}
+.fondo {
+	background-image: url('../img/fondo.JPG');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	min-width: 100%;
+}
+.tam {
+	font-size: 0.7em;
+}
+.menu-principal {
+	text-align: right;
+}
+.redes li {
+	padding: 1vw;
+}
+.redes a span {
+	font-size: 2rem;
+	transition: all 1s;
+	color: #fff;
+}
+.redes a span:hover {
+	font-size: 3rem;
+}
+.gallery-travel img {
+	padding: 1vw;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.img-article {
+	width: 300px;
+	float: left;
+	margin-right: 1vw;
+	padding: 0.3vw;
+	border: 1px solid #ccc;
+}
+
+@media (min-width: 720px) {
+header img {
+	position: absolute;
+	max-width: 230px !important;
+}
+header h1 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+.inline li {
+	display: inline;
+}
+}
+
+@media (max-width: 780px) {
+.img-article {
+	width: 100%;
+	float: left;
+}
+.inline li {
+	display: inline;
+}
+}
+.formulario {
+	background: rgba(0,0,0,0.01)!important;
+}
+form, h5 {
+	font-style: normal;
+	color: aliceblue;
+}
+@font-face {
+	font-family: 'fontello';
+	src: url('../font/fonts/fontello.eot');
+	src: url('../font/fonts/fontello.eot?25277020#iefix') format('embedded-opentype'),  url('../font/fonts/fontello.woff2?25277020') format('woff2'),  url('../font/fonts/fontello.woff?25277020') format('woff'),  url('../font/fonts/fontello.ttf?25277020') format('truetype'),  url('../font/fonts/fontello.svg?25277020#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: "fontello";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1em;
+	margin-left: .2em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-twitter:before {
+	content: '\f099';
+}
+.icon-facebook:before {
+	content: '\f09a';
+}
+.icon-github-circled:before {
+	content: '\f09b';
+}
+.icon-gplus:before {
+	content: '\f0d5';
+}
+.icon-instagram:before {
+	content: '\f16d';
+}
